@@ -5,7 +5,7 @@ body {
 .title {
     text-align: center;
     padding: 1rem;
-    background-color: aquamarine;
+    background-color: #df4058;
     margin-bottom: 0.5rem;
     font-size: x-large;
 }
@@ -13,14 +13,14 @@ body {
 .grid{
     display: flex;
     flex-direction: column;
-    max-height: 960px;
-    max-width: 960px;
+    /*max-height: 960px;
+    max-width: 960px;*/
 }
 
 .single-square {
     height: 10px;
     width: 10px;
-    background-color: aquamarine;
+    background-color: #dddddf;
 }
 
 .line-container {
@@ -45,8 +45,4 @@ body {
 .grid-container {
     display: flex;
     justify-content: center;
-}
-
-.progressive-touched-square{
-    background-color: -10%;
 }
